@@ -8,7 +8,7 @@ Slicing UI of Starbucks App Redesign into a Flutter application.
 ![product detail](https://github.com/dapraws/MotionIntern_Week1/assets/122019775/0813a7ce-379c-4929-a880-4058ab0f0b84)
 ![transaction](https://github.com/dapraws/MotionIntern_Week1/assets/122019775/b22c7df6-7b59-4e13-abd8-dbb6af4b2a44)
 
-## Getting Started
+## Run This Project
 
 To run this project on your local machine, follow these steps:
 
