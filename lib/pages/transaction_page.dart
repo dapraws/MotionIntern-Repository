@@ -10,7 +10,7 @@ class TransactionPage extends StatelessWidget {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text("Selesai"),
-          content: Text("udah gitu aja bang. "),
+          content: Text("udah gitu aja bang."),
           actions: [
             TextButton(
               onPressed: () {
