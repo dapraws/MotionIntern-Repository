@@ -10,7 +10,7 @@ Implementing the UI of Starbucks App Redesign into a Flutter application.
 
 ## Getting Started
 
-To run Naara on your local machine, follow these steps:
+To run this project on your local machine, follow these steps:
 
 1. Clone the repository: `https://github.com/dapraws/MotionIntern_Week1.git`
 2. Navigate to the project directory: `cd MotionIntern_Week1`
