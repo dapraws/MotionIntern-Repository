@@ -195,7 +195,7 @@ class _HomePageState extends State<HomePage> {
               },
             ),
           ),
-          SizedBox(height: 100),
+          SizedBox(height: 130),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(

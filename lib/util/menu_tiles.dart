@@ -16,21 +16,13 @@ class MenuTiles extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.only(left: 25.0),
+        padding: const EdgeInsets.symmetric(horizontal: 15),
         child: Container(
-          padding: EdgeInsets.all(5),
+          padding: EdgeInsets.all(10),
           width: 200,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
             color: Colors.grey[100],
-            boxShadow: [
-              BoxShadow(
-                color: Color.fromARGB(255, 203, 203, 203).withOpacity(1),
-                offset: Offset.zero,
-                blurRadius: 1,
-                spreadRadius: 1,
-              ),
-            ],
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -57,7 +49,7 @@ class MenuTiles extends StatelessWidget {
                 children: [
                   Text(
                     coffee.price,
-                    style: TextStyle(
+                    style: GoogleFonts.poppins(
                         color: Color(0xFF00623B),
                         fontSize: 25,
                         fontWeight: FontWeight.w400),

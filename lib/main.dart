@@ -1,5 +1,4 @@
 import 'package:darrel_motionintern_week_1/pages/home_page.dart';
-import 'package:darrel_motionintern_week_1/pages/transaction_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
@@ -11,7 +10,6 @@ void main() async {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/location': (context) => TransactionPage(),
       },
     ),
   );

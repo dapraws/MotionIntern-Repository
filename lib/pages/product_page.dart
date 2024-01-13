@@ -1,6 +1,7 @@
 import 'package:darrel_motionintern_week_1/models/coffee.dart';
 import 'package:darrel_motionintern_week_1/pages/transaction_page.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ProductPage extends StatefulWidget {
   final Coffee coffee;
@@ -58,7 +59,7 @@ class _ProductPageState extends State<ProductPage> {
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  SizedBox(height: 30),
+                  SizedBox(height: 15),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -76,16 +77,21 @@ class _ProductPageState extends State<ProductPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        widget.coffee.name,
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 22,
+                      Expanded(
+                        child: Text(
+                          widget.coffee.name,
+                          style: GoogleFonts.raleway(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w500,
+                            fontSize: 22,
+                          ),
+                          softWrap: true,
                         ),
                       ),
+                      SizedBox(width: 10),
                       Text(
                         widget.coffee.price,
-                        style: TextStyle(
+                        style: GoogleFonts.poppins(
                           color: Color(0xFF00623B),
                           fontSize: 40,
                         ),
@@ -127,7 +133,7 @@ class _ProductPageState extends State<ProductPage> {
                       },
                       child: Text(
                         "Add to bag",
-                        style: TextStyle(
+                        style: GoogleFonts.raleway(
                           color: Colors.white,
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
