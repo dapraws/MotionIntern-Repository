@@ -1,6 +1,6 @@
 # Starbucks App Redesign
 
-Implementing the UI of Starbucks App Redesign into a Flutter application.
+Slicing UI of Starbucks App Redesign into a Flutter application.
 
 ## UI Design
 ![splash screen](https://github.com/dapraws/MotionIntern_Week1/assets/122019775/f1aab8d9-2166-41f8-ba6a-224ccc9bf330)
