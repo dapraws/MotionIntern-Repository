@@ -3,7 +3,7 @@
 </p>
 
 # Motion Internship Repository
-Welcome to My Motion Laboratory Internship Repository. This repository is a place of my work during Motion Internship Study Group.
+Welcome to My Motion Laboratory Internship Repository. This repository is a place of my work during Motion Laboratory Internship Study Group.
 
 ## How To Navigate
 1. **Select a branch:** Start by selecting the branch that corresponds to the specific week you are interested in. Each branch contains the work I completed during that particular week.
