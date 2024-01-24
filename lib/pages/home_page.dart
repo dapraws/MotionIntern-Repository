@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:motionintern_week2/pages/calls_page.dart';
 import 'package:motionintern_week2/pages/chats_page.dart';
 import 'package:motionintern_week2/pages/updates_page.dart';

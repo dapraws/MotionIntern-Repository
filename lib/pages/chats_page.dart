@@ -13,22 +13,22 @@ class ChatsPage extends StatelessWidget {
           children: [
             ChatCard(
               image: "assets/images/",
-              name: "Aldian",
-              message: "Message",
+              name: "Muhammad",
+              message: "Selamat...",
               time: "19:30",
             ),
             SizedBox(height: 16),
             ChatCard(
               image: "assets/images/",
-              name: "Bima",
-              message: "Message",
+              name: "Darrel",
+              message: "Tahun...",
               time: "19:20",
             ),
             SizedBox(height: 16),
             ChatCard(
               image: "assets/images/",
-              name: "Cecep",
-              message: "Message",
+              name: "Prawira",
+              message: "Baru...",
               time: "19:10",
             ),
           ],
