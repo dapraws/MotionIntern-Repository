@@ -15,12 +15,12 @@ const MaterialColor black = MaterialColor(_blackPrimaryValue, <int, Color>{
 const int _blackPrimaryValue = 0xFF121212;
 
 const MaterialColor blackAccent = MaterialColor(_blackAccentValue, <int, Color>{
-  100: Color(0xFFFF4E4E),
+  100: Color(0xFF8E8E93),
   200: Color(_blackAccentValue),
   400: Color(0xFFE70000),
   700: Color(0xFFCE0000),
 });
-const int _blackAccentValue = 0xFFFF1B1B;
+const int _blackAccentValue = 0xFF262626;
 
 const MaterialColor white = MaterialColor(_whitePrimaryValue, <int, Color>{
   50: Color(0xFFFEFEFE),

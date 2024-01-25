@@ -30,7 +30,7 @@ class FirstPage extends StatelessWidget {
                   SizedBox(height: 13),
                   Text(
                     "dapraws",
-                    style: GoogleFonts.inter(
+                    style: GoogleFonts.roboto(
                       color: white,
                       fontSize: 14,
                       fontWeight: FontWeight.w400,
