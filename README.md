@@ -1,4 +1,4 @@
-# Starbucks App Redesign
+# Starbucks App UI
 
 Slicing UI of Starbucks App Redesign into a Flutter application.
 
