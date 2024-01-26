@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:motionintern_week2/themes/colors.dart';
 import 'package:motionintern_week2/widgets/explore_grid_widget.dart';
 
+// ignore: must_be_immutable
 class SearchPage extends StatelessWidget {
   List<String> category = [
     "IGTV",
@@ -17,7 +18,6 @@ class SearchPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List people = [""];
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(

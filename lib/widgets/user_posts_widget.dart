@@ -79,6 +79,61 @@ class UserPosts extends StatelessWidget {
             ],
           ),
         ),
+        Padding(
+          padding: EdgeInsets.only(left: 16),
+          child: Row(
+            children: [
+              Text(
+                "Liked by ",
+                style: GoogleFonts.roboto(
+                  color: white,
+                  fontWeight: FontWeight.w300,
+                ),
+              ),
+              Text(
+                "meggy ",
+                style: GoogleFonts.roboto(
+                  color: white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                "and ",
+                style: GoogleFonts.roboto(
+                    color: white, fontWeight: FontWeight.w300),
+              ),
+              Text(
+                "others",
+                style: GoogleFonts.roboto(
+                  color: white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Padding(
+          padding: EdgeInsets.only(left: 16, top: 8),
+          child: RichText(
+            text: TextSpan(
+              style: GoogleFonts.roboto(),
+              children: [
+                TextSpan(
+                  text: name,
+                  style: GoogleFonts.roboto(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                TextSpan(
+                  text: " caption here...",
+                  style: GoogleFonts.roboto(
+                      color: white, fontWeight: FontWeight.w300),
+                ),
+              ],
+            ),
+          ),
+        ),
+        SizedBox(height: 20),
       ],
     );
   }

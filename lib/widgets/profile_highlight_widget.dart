@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:motionintern_week2/themes/colors.dart';
 
-class UserStories extends StatelessWidget {
-  final String name;
+class ProfileHighlight extends StatelessWidget {
+  final String highlight;
 
-  UserStories({required this.name});
+  ProfileHighlight({required this.highlight});
 
   @override
   Widget build(BuildContext context) {
@@ -14,8 +14,8 @@ class UserStories extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            width: 60,
-            height: 60,
+            width: 65,
+            height: 65,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.grey[900],
@@ -23,11 +23,11 @@ class UserStories extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            name,
+            highlight,
             style: GoogleFonts.roboto(
               color: white,
               fontWeight: FontWeight.w300,
-              fontSize: 12,
+              fontSize: 13,
             ),
           ),
         ],

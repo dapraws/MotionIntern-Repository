@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: 120,
+            height: 110,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: people.length,
@@ -53,6 +53,7 @@ class HomePage extends StatelessWidget {
           ),
           Expanded(
             child: ListView.builder(
+              itemCount: people.length,
               itemBuilder: (context, index) {
                 return UserPosts(
                   name: people[index],

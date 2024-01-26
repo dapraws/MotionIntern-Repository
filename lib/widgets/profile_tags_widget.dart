@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:motionintern_week2/themes/colors.dart';
 
-class ExploreGrid extends StatelessWidget {
+class ProfileTags extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -13,7 +12,7 @@ class ExploreGrid extends StatelessWidget {
           return Padding(
             padding: EdgeInsets.all(1),
             child: Container(
-              color: blackAccent[100],
+              color: Colors.grey[400],
             ),
           );
         },
