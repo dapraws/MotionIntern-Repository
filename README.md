@@ -1,16 +1,17 @@
 # Instagram App UI
 
-Slicing UI of Starbucks App Redesign into a Flutter application.
+Play with Extract Widgets and Navigating Pages with Instagram App UI.
 
 ## UI Design
-![instagram-firstpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/6db55e77-c35d-48e0-8b4b-e0097bec74ab)
-![instagram-loginpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/de5760a1-984d-4186-acdc-3b56cf121e07)
-![instagram-homepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/68e25ccc-b657-453e-b6ef-7019f96648d8)
-![instagram-chatspage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/e97448ee-242d-4f5b-948c-cdf1736e3254)
-![instagram-searchpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/69c587f4-bdf2-4d09-9767-1cb410fa8e69)
-![instagram-likespage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/9dd075a9-95ad-43e2-bd97-09a3f480d142)
-![instagram-profilepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/17e9346c-d314-4842-919f-64796324ef79)
-![instagram-editprofilepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/6f7b7739-1581-4d0b-a657-f1f8997b52cf)
+![instagram-firstpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/601786cf-ae4f-4d9c-a240-125ad0738136)
+![instagram-loginpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/f98eee2c-8d36-490a-81c3-5bc4ae031974)
+![instagram-homepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/78a310aa-3700-43f6-b18a-c54286a9af3d)
+![instagram-chatspage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/59708e1a-6610-48e0-b0ee-48bffc548dc6)
+![instagram-searchpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/a8d63e36-b652-4fa7-8f98-ab614015c4fe)
+![instagram-likespage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/29169b45-e0ee-439b-bd00-db1ab8accd97)
+![instagram-profilepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/9c929553-c615-4bd4-95ee-0dfda9a66720)
+![instagram-editprofilepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/191172db-39a3-4328-8964-7cc55f560204)
+
 
 
 ## Run This Project
