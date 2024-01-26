@@ -12,7 +12,7 @@ Slicing UI of Starbucks App Redesign into a Flutter application.
 
 To run this project on your local machine, follow these steps:
 
-1. Clone the repository: `https://github.com/dapraws/MotionIntern_Week1.git`
-2. Navigate to the project directory: `cd MotionIntern_Week1`
+1. Clone the repository: `https://github.com/dapraws/MotionIntern-Repository.git`
+2. Navigate to the project directory: `cd MotionIntern-Repository`
 3. Install dependencies: `flutter pub get`
 4. Run the application: `flutter run`
