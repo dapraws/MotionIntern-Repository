@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:motionintern_week2/pages/chats_page.dart';
 import 'package:motionintern_week2/themes/colors.dart';
 import 'package:motionintern_week2/widgets/user_posts_widget.dart';
 import 'package:motionintern_week2/widgets/user_stories_widget.dart';
@@ -34,7 +35,12 @@ class HomePage extends StatelessWidget {
             icon: Image.asset("assets/icons/tv-icon.png"),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ChatsPage()),
+              );
+            },
             icon: Image.asset("assets/icons/paperplane-icon.png"),
           ),
         ],

@@ -32,7 +32,7 @@ class BottomNavBar extends StatelessWidget {
         ),
         // Map
         BottomNavigationBarItem(
-          icon: Image.asset("assets/icons/add-icon.png"),
+          icon: Image.asset("assets/icons/add-square-icon.png"),
           label: '',
         ),
         // Technology

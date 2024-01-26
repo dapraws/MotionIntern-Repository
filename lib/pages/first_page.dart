@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:motionintern_week2/pages/login_page.dart';
 import 'package:motionintern_week2/themes/colors.dart';
 
 class FirstPage extends StatelessWidget {
@@ -47,7 +48,14 @@ class FirstPage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5),
               ),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => LoginPage(),
+                    ),
+                  );
+                },
                 child: Text(
                   "Log in",
                   style: GoogleFonts.roboto(
@@ -67,6 +75,43 @@ class FirstPage extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                   color: blue,
                 ),
+              ),
+            ),
+          ],
+        ),
+      ),
+      bottomNavigationBar: Container(
+        height: 80,
+        child: Column(
+          children: [
+            Divider(
+              color: black,
+            ),
+            Container(
+              height: 40,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Don't have an account? ",
+                    style: GoogleFonts.roboto(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.grey,
+                    ),
+                  ),
+                  GestureDetector(
+                    onTap: () {},
+                    child: Text(
+                      "Sign up.",
+                      style: GoogleFonts.roboto(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                        color: white,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
           ],
