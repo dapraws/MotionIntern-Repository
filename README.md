@@ -8,8 +8,8 @@ Welcome to My Motion Laboratory Internship Repository. This repository is a plac
 ## How To Navigate
 1. **Select a branch:** Start by selecting the branch that corresponds to the specific week you are interested in. Each branch contains the work I completed during that particular week.
 2. **Branch details:**
-   - 'Week1': Slicing UI
-   - 'Week2': Extract Widget and Navigation
+   - 'Week1-2': Slicing UI
+   - 'Week3-4': Extract Widget and Navigation
    - ...
 
 Feel free to explore the content within each branch to gain insights into the learning and mobile app development journey throughout my Motion Internship. If you have any questions or need further clarification, please don't hesitate to reach out.
