@@ -23,6 +23,7 @@ class SearchPage extends StatelessWidget {
       appBar: AppBar(
         scrolledUnderElevation: 0,
         backgroundColor: black,
+        automaticallyImplyLeading: false,
         title: ClipRRect(
           borderRadius: BorderRadius.circular(10),
           child: Container(

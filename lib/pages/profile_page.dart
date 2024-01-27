@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:motionintern_week2/pages/editprofile_page.dart';
 import 'package:motionintern_week2/themes/colors.dart';
 import 'package:motionintern_week2/widgets/profile_grid_widget.dart';
 import 'package:motionintern_week2/widgets/profile_highlight_widget.dart';
@@ -24,6 +25,7 @@ class ProfilePage extends StatelessWidget {
         backgroundColor: black,
         appBar: AppBar(
           backgroundColor: black,
+          automaticallyImplyLeading: false,
           centerTitle: true,
           title: Padding(
             padding: const EdgeInsets.only(left: 60.0),
@@ -133,6 +135,7 @@ class ProfilePage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(height: 10),
 
                     // PROFILE INFORMATION
                     Container(
@@ -164,10 +167,10 @@ class ProfilePage extends StatelessWidget {
                               fontSize: 13,
                             ),
                           ),
-                          SizedBox(height: 12),
                         ],
                       ),
                     ),
+                    SizedBox(height: 12),
 
                     // EDIT PROFILE BUTTON
                     Container(
@@ -179,7 +182,14 @@ class ProfilePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(6),
                       ),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => EditProfilePage(),
+                            ),
+                          );
+                        },
                         child: Text(
                           "Edit Profile",
                           style: GoogleFonts.roboto(
@@ -194,6 +204,7 @@ class ProfilePage extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 12),
 
             // PROFILE HIGHLIGHT
             Container(
