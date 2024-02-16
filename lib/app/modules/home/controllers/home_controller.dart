@@ -8,13 +8,13 @@ import 'package:story_view/story_view.dart';
 class HomeController extends GetxController {
   final storyController = StoryController();
   PostModel postModel = PostModel(
-    namaAkun: 'Ruffles',
+    namaAkun: 'dapraws',
     description:
         'Username Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ',
-    fotoProfile: 'foto_profile',
+    fotoProfile: 'profile-photo',
     jumlahLike: 1,
     isLike: false,
-    postingGambar: 'foto_profile',
+    postingGambar: 'profile-photo',
     isSponsor: true,
   );
 
@@ -28,8 +28,8 @@ class HomeController extends GetxController {
   void loadStoryModel() {
     storyModel = [
       StoryModel(
-        image: 'foto_profile',
-        namaAkun: 'Ruffles',
+        image: 'profile-photo',
+        namaAkun: 'dapraws',
         storyItems: [
           StoryItem.text(
             title: "I guess you'd love to see more of our food. That's great.",
@@ -43,8 +43,8 @@ class HomeController extends GetxController {
         isLoginAccount: true,
       ),
       StoryModel(
-        image: 'foto_profile',
-        namaAkun: 'Sabanok',
+        image: 'profile-photo',
+        namaAkun: 'RezWibu',
         storyItems: [
           StoryItem.pageImage(
             url:
@@ -55,8 +55,8 @@ class HomeController extends GetxController {
         ],
       ),
       StoryModel(
-        image: 'foto_profile',
-        namaAkun: 'Blue_Boy',
+        image: 'profile-photo',
+        namaAkun: 'rizalPro',
         storyItems: [
           StoryItem.pageImage(
             url: "https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif",

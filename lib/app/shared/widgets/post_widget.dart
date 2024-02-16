@@ -30,7 +30,7 @@ class Post extends StatelessWidget {
                   child: Image.asset(
                     postModel.fotoProfile.isEmpty
                         ? ""
-                        : 'assets/images/${postModel.postingGambar}.png',
+                        : 'assets/images/${postModel.postingGambar}.jpg',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -65,7 +65,7 @@ class Post extends StatelessWidget {
           height: 8,
         ),
         Image.asset(
-          'assets/images/${postModel.postingGambar}.png',
+          'assets/images/${postModel.postingGambar}.jpg',
           width: double.infinity,
           height: 390,
         ),

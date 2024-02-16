@@ -28,7 +28,7 @@ class StoryWidget extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(72),
                     child: Image.asset(
-                      'assets/images/${story.image}.png',
+                      'assets/images/${story.image}.jpg',
                       fit: BoxFit.cover,
                     ),
                   ),
