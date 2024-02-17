@@ -1,16 +1,14 @@
-# motioninternship_week5
+# Instagram App UI
 
-A new Flutter project.
+Exploring GET CLI with Instagram App UI.
 
-## Getting Started
+## UI Design
 
-This project is a starting point for a Flutter application.
+## Run This Project
 
-A few resources to get you started if this is your first Flutter project:
+To run this project on your local machine, follow these steps:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository: `git clone -b Week5-6 https://github.com/dapraws/MotionIntern-Repository.git`
+2. Navigate to the project directory: `cd MotionIntern-Repository`
+3. Install dependencies: `flutter pub get`
+4. Run the application: `flutter run`
