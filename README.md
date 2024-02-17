@@ -10,7 +10,14 @@ Welcome to My Motion Laboratory Internship Repository. This repository is a plac
 2. **Branch details:**
    - 'Week1-2': Slicing UI
    - 'Week3-4': Extract Widget and Navigation
-   - ...
+   - 'Week5-6': State Management (GetX) and Get CLI
+  
+## How To Run
+1. Clone the repository: `git clone -b <branchname> https://github.com/dapraws/MotionIntern-Repository.git`
+2. Navigate to the project directory: `cd MotionIntern-Repository`
+3. Install dependencies: `flutter pub get`
+4. Run the application: `flutter run`
+
 
 Feel free to explore the content within each branch to gain insights into the learning and mobile app development journey throughout my Motion Internship. If you have any questions or need further clarification, please don't hesitate to reach out.
 
