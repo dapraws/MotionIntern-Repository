@@ -18,7 +18,7 @@ Exploring Extract Widgets and Navigating Pages with Instagram App UI.
 
 To run this project on your local machine, follow these steps:
 
-1. Clone the repository: `https://github.com/dapraws/MotionIntern-Repository.git`
+1. Clone the repository: `git clone -b Week3-4 https://github.com/dapraws/MotionIntern-Repository.git`
 2. Navigate to the project directory: `cd MotionIntern-Repository`
 3. Install dependencies: `flutter pub get`
 4. Run the application: `flutter run`
