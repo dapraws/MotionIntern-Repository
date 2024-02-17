@@ -13,12 +13,12 @@ class Post extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: Row(
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(
@@ -60,53 +60,78 @@ class Post extends StatelessWidget {
               ),
             ],
           ),
-        ),
-        const SizedBox(
-          height: 8,
-        ),
-        Image.asset(
-          'assets/images/${postModel.postingGambar}.jpg',
-          width: double.infinity,
-          height: 390,
-        ),
-        const SizedBox(
-          height: 9.25,
-        ),
-        Row(
-          children: [
-            IconButton(
-              onPressed: onPressed,
-              icon: Icon(
-                postModel.isLike ? Icons.favorite : Icons.favorite_border,
+          const SizedBox(
+            height: 8,
+          ),
+          Image.asset(
+            'assets/images/${postModel.postingGambar}.jpg',
+            width: double.infinity,
+          ),
+          const SizedBox(
+            height: 9.25,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                children: [
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: onPressed,
+                        icon: Icon(
+                          postModel.isLike
+                              ? Icons.favorite
+                              : Icons.favorite_border,
+                          color: Colors.black,
+                        ),
+                      ),
+                      const Icon(
+                        Icons.messenger_outline_outlined,
+                        color: Colors.black,
+                      ),
+                      SizedBox(width: 10),
+                      const Icon(
+                        Icons.share_outlined,
+                        color: Colors.black,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              const Icon(
+                Icons.bookmark_border,
+                color: Colors.black,
+              ),
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              '${postModel.jumlahLike} Likes',
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: RichText(
+              text: TextSpan(
+                // Note: Styles for TextSpans must be explicitly defined.
+                // Child text spans will inherit styles from parent
+                style: const TextStyle(
+                  fontSize: 14.0,
+                  color: Colors.black,
+                ),
+                children: <TextSpan>[
+                  TextSpan(
+                      text: '${postModel.namaAkun} ',
+                      style: const TextStyle(fontWeight: FontWeight.bold)),
+                  TextSpan(text: '${postModel.description}'),
+                ],
               ),
             ),
-            const Icon(
-              Icons.comment,
-            ),
-            SizedBox(width: 10),
-            const Icon(
-              Icons.share,
-            ),
-            SizedBox(width: 250),
-            const Icon(
-              Icons.bookmark_border,
-              size: 30,
-            ),
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: Text(
-            '${postModel.jumlahLike} Likes',
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: Text(
-            ' ${postModel.namaAkun} ${postModel.description}',
-          ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

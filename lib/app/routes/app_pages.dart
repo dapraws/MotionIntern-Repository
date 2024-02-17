@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 import 'package:motioninternship_week5/app/modules/igstory/bindings/igstory_binding.dart';
 import 'package:motioninternship_week5/app/modules/igstory/views/igstory_view.dart';
+import 'package:motioninternship_week5/app/modules/main/bindings/main_binding.dart';
+import 'package:motioninternship_week5/app/modules/main/views/main_view.dart';
 import 'package:motioninternship_week5/app/modules/newpost/bindings/newpost_binding.dart';
 import 'package:motioninternship_week5/app/modules/newpost/views/newpost_controller.dart';
 import 'package:motioninternship_week5/app/modules/profile/bindings/profile_binding.dart';
@@ -16,9 +18,14 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.HOME;
+  static const INITIAL = Routes.MAIN;
 
   static final routes = [
+    GetPage(
+      name: _Paths.MAIN,
+      page: () => MainView(),
+      binding: MainBinding(),
+    ),
     GetPage(
       name: _Paths.HOME,
       page: () => const HomeView(),

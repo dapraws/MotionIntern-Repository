@@ -3,6 +3,7 @@ part of 'app_pages.dart';
 
 abstract class Routes {
   Routes._();
+  static const MAIN = _Paths.MAIN;
   static const HOME = _Paths.HOME;
   static const IG_STORY = _Paths.IG_STORY;
   static const EXPLORE = _Paths.EXPLORE;
@@ -13,6 +14,7 @@ abstract class Routes {
 
 abstract class _Paths {
   _Paths._();
+  static const MAIN = '/main';
   static const HOME = '/home';
   static const IG_STORY = '/ig-story';
   static const EXPLORE = '/explore';
