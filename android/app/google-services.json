@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872363386799",
+    "project_id": "motioninternweek7",
+    "storage_bucket": "motioninternweek7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872363386799:android:4072d79f8962a154baf15a",
+        "android_client_info": {
+          "package_name": "com.example.motionintern_week7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2YkTn0_dEPQW-IRz-sjSn921Iw8IUn4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
