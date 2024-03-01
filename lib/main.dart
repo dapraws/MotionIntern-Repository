@@ -1,24 +1,15 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:motionintern_week7/firebase_options.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const MainApp());
-}
+import 'package:get/get.dart';
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+import 'app/routes/app_pages.dart';
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+void main() {
+  runApp(
+    GetMaterialApp(
+      title: "Application",
+      initialRoute: AppPages.INITIAL,
+      getPages: AppPages.routes,
+    ),
+  );
 }
