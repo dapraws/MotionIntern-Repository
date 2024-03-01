@@ -3,6 +3,8 @@ Implementing Firebase Cloud Firestore into To Do App.
 
 ## Screenshot
 ![todoapp Medium](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/4744c18e-0433-4c99-8ee3-e32818972cdc)
+![todoappfirebase Medium](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/82d0559c-5433-48e6-ae99-1b4bc8b3eb74)
+
 
 ## Run This Project
 
