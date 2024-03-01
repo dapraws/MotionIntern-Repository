@@ -11,6 +11,7 @@ Welcome to My Motion Laboratory Internship Repository. This repository is a plac
    - 'Week1-2': Slicing UI
    - 'Week3-4': Extract Widget and Navigation
    - 'Week5-6': State Management (GetX) and Get CLI
+   - 'Week7-8': Firebase and API
   
 ## How To Run
 1. Clone the repository: `git clone -b <branchname> https://github.com/dapraws/MotionIntern-Repository.git`
