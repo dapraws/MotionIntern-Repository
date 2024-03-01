@@ -1,23 +1,42 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:motionintern_week7/app/data/models/todoitem_model.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
+  final TextEditingController textEditingController_ = TextEditingController();
 
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
+  void handleCreateTodo() {
+    String todoTitle = textEditingController_.text.trim();
+
+    if (todoTitle.isNotEmpty) {
+      FirebaseFirestore.instance.collection('todos').add({
+        'title': todoTitle,
+        'status': false,
+        'timestamp': DateTime.now(),
+      }).then((_) {
+        textEditingController_.clear();
+      }).catchError((error) {
+        print("Gagal menambahkan todo: $error");
+      });
+    }
   }
 
-  @override
-  void onReady() {
-    super.onReady();
+  void handleToggleTodo(String id, bool status) {
+    FirebaseFirestore.instance.collection('todos').doc(id).update({
+      'status': !status,
+    }).then((_) {
+      print("Todo dengan id: $id berhasil diperbarui");
+    }).catchError((error) {
+      print("Gagal memperbarui todo: $error");
+    });
   }
 
-  @override
-  void onClose() {
-    super.onClose();
+  void handleDeleteTodo(String id) {
+    FirebaseFirestore.instance.collection('todos').doc(id).delete().then((_) {
+      print("Todo dengan id: $id berhasil dihapus");
+    }).catchError((error) {
+      print("Gagal menghapus todo: $error");
+    });
   }
-
-  void increment() => count.value++;
 }
