@@ -2,7 +2,8 @@
 
 Slicing UI of Starbucks App into a Flutter application.
 
-## UI Design
+## Screenshot
+
 ![splash screen](https://github.com/dapraws/MotionIntern_Week1/assets/122019775/f1aab8d9-2166-41f8-ba6a-224ccc9bf330)
 ![home screen](https://github.com/dapraws/MotionIntern_Week1/assets/122019775/4f184d3f-e6f1-47d3-924a-0f8ff6b2b08f)
 ![product detail](https://github.com/dapraws/MotionIntern_Week1/assets/122019775/0813a7ce-379c-4929-a880-4058ab0f0b84)
