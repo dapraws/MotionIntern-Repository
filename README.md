@@ -3,6 +3,7 @@
 Exploring Extract Widgets and Navigating Pages with Instagram App UI.
 
 ## UI Design
+
 ![instagram-firstpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/601786cf-ae4f-4d9c-a240-125ad0738136)
 ![instagram-loginpage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/f98eee2c-8d36-490a-81c3-5bc4ae031974)
 ![instagram-homepage](https://github.com/dapraws/MotionIntern-Repository/assets/122019775/78a310aa-3700-43f6-b18a-c54286a9af3d)
